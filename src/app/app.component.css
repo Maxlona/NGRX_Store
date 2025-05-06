@@ -1,0 +1,48 @@
+.container {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.add-todo input {
+  width: 70%;
+  padding: 8px;
+  margin-right: 5px;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px;
+  border: none;
+  background-color: #007bff;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid #412c2c;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.load-btn {
+  margin-top: 15px;
+  background-color: #28a745;
+}

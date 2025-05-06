@@ -1,0 +1,33 @@
+
+
+<div class="content" role="main">
+
+  <div class="container"  *ngIf="(todos$ | async)?.length === 0">
+    <h1>Todo List 📝</h1>
+    <p>No todos available. Loading...</p>
+  </div>
+
+  <div class="container" *ngIf="(todos$ | async)?.length">
+    <h1>Todo List 📝</h1>
+
+    <!-- Add Todo Input -->
+    <div class="add-todo">
+      <input #todoTitle type="text" placeholder="Enter todo..." />
+      <button (click)="addNewTodo(todoTitle.value)">Add Todo</button>
+    </div>
+
+    <!-- Todo List -->
+    <ul class="todo-list">
+      <!-- <pre>{{ todos$ | async | json }}</pre> -->
+      <li *ngFor="let todo of todos$ | async; let i = index;">
+        <span [class.completed]="todo.completed">{{ todo.title }}</span> -
+        <button (click)="toggleCompletion(todo)">✔</button> -
+        <button (click)="removeTodoClick(todo.id)">❌</button>
+      </li>
+    </ul>
+    <button class="load-btn" (click)="loadTodosFromStore()">Reset Todos</button>
+  </div>
+</div>
+
+
+<router-outlet></router-outlet>
