@@ -1,38 +1,22 @@
 # Newapp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.6.
+Load all
+ ![image](https://github.com/user-attachments/assets/731662cb-26b6-4641-a579-99116d3fb939)
 
-## Development server
+Mark Completed
+![image](https://github.com/user-attachments/assets/69afde56-b444-4398-beca-b19dabdb0a9c)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Delete Items
+![image](https://github.com/user-attachments/assets/2e07a72f-0f9e-481a-b974-12ab4c3089c4)
 
-## Code scaffolding
+Show Completed:
+![image](https://github.com/user-attachments/assets/9ba76603-47a0-4c11-8769-4417141ca539)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Show Open
+![image](https://github.com/user-attachments/assets/c9b7ffc2-4b25-4072-a14d-1134344e692e)
 
-## Build
+Reset View && Add New
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![image](https://github.com/user-attachments/assets/b86df0fd-5474-4ff6-aba2-c6b4f1f7598d)
 
 
-![image](https://github.com/user-attachments/assets/e84b9c7c-b8a7-4c6b-b274-940cabcdaf3b)
-
-![image](https://github.com/user-attachments/assets/c95909e2-8182-4001-a961-df724c1e6c01)
-
-![image](https://github.com/user-attachments/assets/c83ba7a9-f947-4b91-805c-992b8deca204)
-
-
-![image](https://github.com/user-attachments/assets/ff1a7b3d-6307-4c58-a0fa-95f0ca58a6b8)
-![image](https://github.com/user-attachments/assets/21e229cc-ce80-498f-8a96-78f0aa2467a3)
